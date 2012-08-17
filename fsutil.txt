@@ -1,0 +1,2 @@
+# run as admin
+C:\Users\Andrew.Arvidson\Documents\GitHub\test0>for /l %a in (131072,32768,2621440) do fsutil file createnew %a.bin %a
